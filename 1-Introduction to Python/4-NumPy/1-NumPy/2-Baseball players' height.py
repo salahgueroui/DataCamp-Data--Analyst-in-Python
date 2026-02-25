@@ -15,6 +15,7 @@
 import numpy as np
 
 # Create a numpy array from height_in: np_height_in
+height_in = [74, 74, 72, 75, 75, 73]  # example values
 np_height_in=np.array(height_in)
 
 # Print out np_height_in
