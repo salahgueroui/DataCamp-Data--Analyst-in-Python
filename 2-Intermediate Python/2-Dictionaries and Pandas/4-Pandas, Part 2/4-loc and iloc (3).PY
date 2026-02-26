@@ -7,7 +7,7 @@
 ## - Print both the cars_per_cap and drives_right columns as a DataFrame using loc or iloc.
 
 ## MY SOLUTION:
-
+'''
 # Import cars data
 import pandas as pd
 cars = pd.read_csv('cars.csv', index_col = 0)
@@ -21,4 +21,4 @@ print(cars.loc[:,['drives_right']])
 
 # Print out cars_per_cap and drives_right as DataFrame
 print(cars.loc[:, ['cars_per_cap','drives_right']])
-
+'''
