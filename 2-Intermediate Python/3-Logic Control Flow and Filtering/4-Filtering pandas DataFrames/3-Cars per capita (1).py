@@ -16,6 +16,7 @@
 
 ## MY SOLUTION:
 
+'''
 # Import cars data
 import pandas as pd
 cars = pd.read_csv('cars.csv', index_col = 0)
@@ -27,3 +28,4 @@ car_maniac=cars[many_cars]
 
 # Print car_maniac
 print(car_maniac)
+'''
